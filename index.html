@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="images/favicon-16x16.png"/>
     <script src="js/custom.js"></script>
 </head>
 <body>
@@ -18,16 +19,16 @@
                 <div class="row">
                     <div class="col-12 d-flex flex-wrap justify-content-between align-items-center">
                         <div class="site-branding d-flex align-items-center">
-                           <!-- <a class="d-block" href="index.html" rel="home"><img class="d-block" src="images/logo.png" alt="logo"></a> -->
-                           <a class="d-block" href="index.html" rel="home" style="font-size: larger; font-style: italic; font-display: fallback">Töö & Tervis OÜ </a>
+                           <a class="d-block" href="index.html" rel="home"><img class="d-block" style="padding-left: 50px" src="images/heart-beat.png" alt="logo"></a>
+                           <a class="d-block" href="index.html" rel="home" style="font-size: larger; font-style: italic; font-display: fallback; padding-left: 6px">Töö & Tervis OÜ</a>
                         </div>
 
                         <nav class="site-navigation d-flex justify-content-end align-items-center">
                             <ul class="d-flex flex-column flex-lg-row justify-content-lg-end align-items-center">
                                 <li class="current-menu-item"><a href="index.html">Avaleht</a></li>
                                 <!-- <li><a href="about.html">Meist</a></li> -->
-                                <li><a href="services.html">Teenused</a></li>
-                                <li><a href="contact.html">Kontakt</a></li>
+                                <li><a href="#services">Teenused</a></li>
+                                <li><a href="#contact">Kontakt</a></li>
 
                                 <li class="call-btn button gradient-bg mt-3 mt-md-0">
                                     <a class="d-flex justify-content-center align-items-center"><img src="images/emergency-call.png">47 33 660</a>
@@ -47,6 +48,7 @@
             </div>
         </div>
 
+
         <div class="swiper-container hero-slider">
             <div class="swiper-wrapper">
                 <div class="swiper-slide hero-content-wrap" style="background-image: url('images/hero.jpg')"> --: 
@@ -59,7 +61,7 @@
                                     </header>
 
                                     <div class="entry-content mt-4">
-                                        <p>Töö & Tervis OÜ on töötervishoiu teenusepakkuja aastast 2003. Asume Haapsalus juba mitmeid aastaid. Tegevusvaldkondadeks on töötajate tervisekontroll vastavalt töökeskonnas esinevatele ohuteguritele.</p>
+                                        <p style="font:bold"> Töö & Tervis OÜ on töötervishoiu teenusepakkuja aastast 2003. Asume Haapsalus juba mitmeid aastaid. Tegevusvaldkondadeks on töötajate tervisekontroll vastavalt töökeskonnas esinevatele ohuteguritele.</p>
                                     </div>
 
                                     <footer class="entry-footer d-flex flex-wrap align-items-center mt-4">
@@ -80,7 +82,7 @@
                         <h2 class="d-flex align-items-center">Lahtioleku ajad</h2>
 
                         <ul class="p-0 m-0">
-                            <li>Teisipäev <span>9.00 - 14.00</span></li>
+                            <li>Teisipäev <span style="">9.00 - 14.00</span></li>
                             <li>Kolmapäev <span>9.00 - 14.00</span></li>
                             <li>Neljapäev <span>9.00 - 14.00</span></li>
                         </ul>
@@ -107,13 +109,12 @@
         </div>
     </div>
 
-    <div class="our-departments">
+    <div class="our-departments" id="services">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="our-departments-wrap">
                         <h2>Meie teenused</h2>
-
                         <div class="row">
                             <div class="col-12 col-md-6 col-lg-4">
                                 <div class="our-departments-cont">
@@ -209,7 +210,7 @@
         </div>
     </div>
 
-    <footer class="site-footer">
+    <footer class="site-footer" id="contact">
         <div class="footer-widgets">
             <div class="container">
                 <div class="row">
